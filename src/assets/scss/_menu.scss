@@ -1,0 +1,42 @@
+
+
+.barra-menu{
+    background-color: $a-azul;
+    padding: 1%;
+    li{
+        display: inline-block;
+        text-align: center;
+        border-right: 1px solid white;
+        a{
+            text-decoration: none;
+            color:white;
+            font-family: $r-light;
+            text-transform: uppercase;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    .no-border{
+        border:none;
+    }
+}
+
+.barra-menu a:hover{
+    font-family: $r-regular;
+    color: $a-oro;
+    transition: 0.5s;
+}
+
+.barra-menu li:hover{
+    
+    img{
+        max-width: 28%;
+        transition: 0.5s;
+    }
+    
+}
+
+.iconos-menu{
+    margin-top: 5%;
+}

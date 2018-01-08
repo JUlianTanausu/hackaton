@@ -1,0 +1,269 @@
+/**
+ * Eric Meyer's Reset CSS v2.0+ (https://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section {
+   display: block;
+ }
+ body {
+   line-height: 1.5;
+ }
+ ol, ul {
+   list-style: none;
+ }
+ blockquote, q {
+   quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+   content: '';
+   content: none;
+ }
+ table {
+   border-spacing: 2px;
+ }
+ .clearfix:before,
+ .clearfix:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .clearfix:after {
+     clear: both;
+ }
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .clearfix {
+     *zoom: 1;
+ }
+ a, a:hover {
+     text-decoration: none;
+ }
+ .img-responsive {
+     max-width: 100%;
+     height: auto;
+ }
+ 
+ body{
+     font-family: Arial, Helvetica, sans-serif;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+ }
+ 
+ .elegant-calencar {
+       width: 90%;
+ 
+     border: 1px solid #c9c9c9;
+     -webkit-box-shadow: 0 0 5px #c9c9c9;
+     box-shadow: 0 0 5px #c9c9c9;
+     text-align: center;
+     margin: 4em auto;
+     position: relative;
+ }
+ 
+ .elegant-day {
+       width: 90%;
+     border: 1px solid #c9c9c9;
+     -webkit-box-shadow: 0 0 5px #c9c9c9;
+     box-shadow: 0 0 5px #c9c9c9;
+     text-align: center;
+     margin: 4em auto;
+     position: relative;
+     background-color: white;
+ }
+ 
+ 
+ #header {
+     font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+     height: 14em;
+     background-color: $a-azul;
+     margin-bottom: 1em;
+ }
+ 
+ #header-dia {
+     font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+     height: 10%;
+     background-color: $a-azul;
+     margin-bottom: 1em;
+ }
+ 
+ 
+ .pre-button, .next-button {
+     margin-top: 2em;
+     font-size: 3em;
+     -webkit-transition: -webkit-transform 0.5s;
+     transition: transform 0.5s;
+     cursor: pointer;
+     width: 1em;
+     height: 1em;
+     line-height: 1em;
+     color: #000;
+     border-radius: 50%;
+ }
+ 
+ .pre-button:hover, .next-button:hover {
+     -webkit-transform: rotate(360deg);
+     -ms-transform: rotate(360deg);
+     transform: rotate(360deg);
+ }
+ 
+ .pre-button:active,.next-button:active{
+     -webkit-transform: scale(0.7);
+     -ms-transform: scale(0.7);
+     transform: scale(0.7);
+ }
+ 
+ .pre-button {
+     float: left;
+     margin-left: 0.5em;
+ }
+ 
+ .next-button {
+     float: right;
+     margin-right: 0.5em;
+ }
+ 
+ .head-info {
+     float: left;
+     width: 16em;
+ }
+ 
+ .head-day {
+     margin-top: 30px;
+     font-size: 8em;
+     line-height: 1;
+     color: white;
+ }
+ 
+ .head-month {
+     margin-top: 20px;
+     font-size: 2em;
+     line-height: 1;
+     color: white;
+ }
+ 
+ .balance {
+     margin-top: 20px;
+     font-size: 2em;
+     line-height: 1;
+     color: white;
+     background-color: $a-azul;
+     padding-bottom: 2%;
+     font-family: $r-light;
+ }
+ 
+ #calendar {
+     width: 100%;
+     margin: 0 auto;
+ }
+ 
+ 
+ 
+ #calendar tr {
+     height: 2em;
+     line-height: 2em;
+ }
+ 
+ thead tr {
+     color: $a-azul;
+   font-weight: 700;
+   text-transform: uppercase;
+ }
+ 
+ tbody tr {
+     color: $a-azul;
+ }
+ 
+ tbody td{
+     width: 14%;
+     cursor: pointer;
+     -webkit-transition:all 0.2s ease-in;
+     transition:all 0.2s ease-in;
+ }
+ 
+ tbody td:hover, .selected {
+     color: #fff;
+     background-color: #2a3246;
+     border: none;
+ }
+ 
+ tbody td:active {
+     -webkit-transform: scale(0.7);
+     -ms-transform: scale(0.7);
+     transform: scale(0.7);
+ }
+ 
+ #today {
+     background-color: $a-azul;
+     color: #fff;
+     font-family: serif;
+ }
+ 
+ #disabled {
+     cursor: default;
+     background: none;
+ }
+ 
+ #disabled:hover {
+     background: #fff;
+     color: #c9c9c9;
+ }
+ 
+ #reset {
+     display: block;
+     position: absolute;
+     right: 0.5em;
+     top: 0.5em;
+     z-index: 999;
+     color: #fff;
+     font-family: serif;
+     cursor: pointer;
+     padding: 0 0.5em;
+     height: 1.5em;
+     border: 0.1em solid #fff;
+     border-radius: 4px;
+     -webkit-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+ }
+ 
+ #reset:hover {
+     color: #e66b6b;
+     border-color: #e66b6b;
+ }
+ 
+ #reset:active{
+     -webkit-transform: scale(0.8);
+     -ms-transform: scale(0.8);
+     transform: scale(0.8);     
+ }
+
+ #myProgress {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 20%;
+  
+  }
+  
+  #myBar {
+    width: 1%;
+    height: 30px;
+    background-color: #4CAF50;
+    border-radius: 10%;
+  }
+ 
+  .caja-saldo{
+    background-color: $a-azul;
+    padding-top: 2%;
+    color: white;
+  }
+
+  .concepto-align, .dinero-align{
+      text-align: center;
+      color:$a-gris;
+}

@@ -1,0 +1,163 @@
+body{
+    font-family: $r-regular;
+    font-size: 16px;
+}
+
+img{
+    width: 100%;
+}
+
+.FinBot_logo{
+    margin-left: 38%;
+}
+
+// .size-bot{
+//     width: 200%;
+// }
+
+.espacio-logo{
+    @include space-logo(10%,5%);
+}
+
+.espacio-logo2{
+    @include space-logo(5%,5%);
+}
+
+.titular-app{
+    font-size:3em;
+}
+
+.second-app{
+    margin: 0 38%;
+    font-size: 25px;
+    color: grey;
+    font-family: roboto-light;
+}
+
+// .dialogo{
+//     margin-top: 15%;
+//     color:$a-plata;
+//     border:1px solid black;
+//     padding: 2%;
+// }
+
+.arrow_box {
+	position: relative;
+	background: #ffffff;
+    border: 2px solid #000000;
+    padding: 5%;
+    margin-top: 10%;
+    color:$a-gris;
+}
+.arrow_box:after, .arrow_box:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #ffffff;
+    border-width: 17px;
+    margin-top: -43px;
+}
+.arrow_box:before {
+	border-color: rgba(0, 0, 0, 0);
+    border-right-color: #000000;
+    border-width: 20px;
+    margin-top: -46px;
+}
+
+.nombre-usuario{
+    color:$a-azul;
+}
+
+.campo-cantidad{
+    border: 1px solid $a-gris;
+    margin-top: 10%;
+    text-align: right;
+    padding-right: 6%;
+    border-radius: 5px;
+    text-align: left;
+    input{
+        font-size: 3em;
+        text-align: right;
+        border:none;
+    }
+}
+
+.campo-cantidad-s{
+    border: none;
+    margin-top: 10%;
+    text-align: right;
+    padding-right: 6%;
+    border-radius: 5px;
+    text-align: left;
+    input{
+        font-size: 3em;
+        text-align: right;
+        border:none;
+    }
+}
+
+.valor{
+    margin: 1% 0;
+}
+
+.aclaracion{
+    position: absolute;
+    margin: -5% -2%;
+    color:$a-gris;
+}
+
+.aclaracion2{
+    position: absolute;
+    margin: 3% -2%;
+    color:$a-gris;
+}
+
+.icon-nomina{
+    width: 85%;
+}
+
+.icon-meta{
+    width: 65%;
+}
+
+.icon-meta2{
+    width: 60%;
+}
+
+.icon-hucha{
+    width: 100%;
+}
+
+.empujar-iconos{
+    margin-left: 42%;
+}
+
+.empujar-iconos2{
+    margin-left: 42%;
+}
+
+.icon-meta3{
+    width: 27%;
+    margin-left: 43%;
+}
+
+.icon-logro{
+    width: 15%;
+    margin: -2% -20%;
+    position: absolute;
+}
+
+.icon-logro2{
+    width: 15%;
+    margin: -2% 102%;
+    position: absolute;
+}

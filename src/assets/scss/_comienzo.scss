@@ -1,0 +1,17 @@
+.btn-empezar{
+    @include btns;
+}
+
+.btn-empezar:hover{
+    background-color: $a-oro;
+    transition: 1s;
+    color: black;
+}
+
+.empujar{
+    margin-top: 7%;
+}
+
+.btn-compra{
+    @include btns($a-amarillo);
+}

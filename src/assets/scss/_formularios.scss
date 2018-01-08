@@ -1,0 +1,37 @@
+.espacio-campos{
+    @include space-campos;
+}
+
+
+.caja-registro{
+    @include caja-login-sign(10%,98.5%);
+    a{
+        margin-left: 10%;
+    }
+}
+
+.btn-log-sign{
+    @include btn-log-sign;
+}
+
+.caja-registro2{
+    @include caja-login-sign(9%,98.5%);
+    a{
+        margin-left: 10%;
+    }
+}
+
+// .caja-registro a:hover,.caja-registro2 a:hover{
+//     color:yellow;
+//     text-decoration: none;
+//     padding-left: 10%;
+//     transition: 1s;
+// }
+
+
+
+.caja-registro:hover,.caja-registro2:hover {
+    transition: 1s;
+    padding-left: 0;
+    color: yellow;
+}

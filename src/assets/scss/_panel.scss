@@ -1,0 +1,207 @@
+/* Hide un-compiled mustache bindings
+until the Vue instance is ready */
+.caja-gastos-empuja{
+    margin-left: 22%;
+}
+
+.caja-gastos-empuja2{
+    margin-left: 40%;
+}
+
+
+
+[v-cloak] {
+    display: none;
+  }
+  *{
+      margin:0;
+      padding:0;
+  }
+  body{
+      font:15px/1.3 'Open Sans', sans-serif;
+      color: #5e5b64;
+      text-align:center;
+  }
+  a, a:visited {
+      outline:none;
+      color:#389dc1;
+  }
+  a:hover{
+      text-decoration:none;
+  }
+  section, footer, header, aside, nav{
+      display: block;
+  }
+  .hogar,.restauracion,.transporte,.salud,.compras,.supermercado{    
+     @include panel-categorias;
+}
+
+.hogar{
+    background-color: $a-azul;
+    padding-bottom: 5%;
+    img{
+        margin-top: 10%;
+        padding-bottom: 1%;
+    }
+}
+  .container1{
+      width: 800px;
+      height:32px;
+      padding: 10px;
+      margin: 45px auto 25px;
+      position:relative;
+      text-align:right;
+      line-height: 1;
+  }
+  .container2{
+      width: 800px;
+      height:32px;
+      padding: 10px;
+      margin: 45px auto 25px;
+      position:relative;
+      text-align:right;
+      line-height: 1;
+  }
+
+
+  .dinero{
+      font-size: 20px;
+  }
+
+  .porcentaje{
+      font-size: 2em;
+      margin-top: -1%;
+  }
+
+  .btn-ingresos{
+      @include btns ($a-verde);
+  }
+
+.barras{
+    height: 200px;
+    margin-bottom: 20px;
+    // background-color: rgb(245, 245, 245);
+    // box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px inset;
+    overflow: none;
+    border-radius: 4px;
+    .porciento{
+        float: left;
+        width: 0;
+        height: 100%;
+        font-size: 12px;
+        line-height: 20px;
+        color: #fff;
+        text-align: center;
+        // background-color: #337ab7;
+        -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+        box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+        -webkit-transition: width .6s ease;
+        -o-transition: width .6s ease;
+        transition: width .6s ease;
+    }
+}
+
+.color-barra1{
+    @include barras ($a-amarillo);
+    color: white;
+    text-align: center;
+    padding-bottom: 1%;
+    img{
+        margin-top: 5%;
+    }
+    h3{
+        font-size: 24px;
+        margin-top: 5%;
+    }
+    .dinero{
+        font-size: 24px;
+    }
+}
+
+.color-barra2{
+    @include barras ($a-rosa);
+    color: white;
+    text-align: center;
+    img{
+        margin-top: 6%;
+    }
+    h3{
+        font-size: 24px;
+        margin-top: 5%;
+    }
+    .dinero{
+        font-size: 24px;
+    }
+}
+
+.color-barra3{
+    @include barras ($a-azul);
+    color: white;
+    text-align: center;
+    img{
+        margin-top: 5%;
+    }
+    h3{
+        font-size: 24px;
+        margin-top: 5%;
+    }
+    .dinero{
+        font-size: 24px;
+    }
+}
+
+.color-barra4{
+    @include barras ($a-verde);
+    color: white;
+    text-align: center;
+    img{
+        margin-top: 5%;
+    }
+    h3{
+        font-size: 24px;
+        margin-top: 5%;
+    }
+    .dinero{
+        font-size: 24px;
+    }
+}
+
+.imagen-size{
+    width: 100px;
+}
+
+.color-barra5{
+    @include barras ($a-naranja);
+    color: white;
+    text-align: center;
+    img{
+        margin-top: 5%;
+    }
+    h3{
+        font-size: 24px;
+        margin-top: 5%;
+    }
+    .dinero{
+        font-size: 24px;
+    }
+}
+
+.color-barra6{
+    @include barras ($a-rojo);
+    color: white;
+    text-align: center;
+    img{
+        margin-top: 8%;
+    }
+    h3{
+        font-size: 24px;
+        margin-top: 5%;
+    }
+    .dinero{
+        font-size: 24px;
+    }
+}
+
+// .porcentaje{
+//     font-weight: bold;
+// }

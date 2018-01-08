@@ -1,0 +1,66 @@
+.categoria1{
+    @include categoria($a-amarillo);
+    img{
+        margin-top: -12%;
+    }
+    h3{
+        margin-top: 20%;
+    }
+}
+
+.categoria2{
+    @include categoria($a-rosa);
+    img{
+        margin-top: -12%;
+    }
+    h3{
+        margin-top: 20% !important;
+    }
+
+}
+
+.categoria3{
+    @include categoria($a-azul);
+    img{
+        margin-top: -12%;
+    }
+    h3{
+        margin-top: 6% !important; 
+    }
+
+}
+
+.categoria3{
+    @include categoria($a-azul);
+}
+
+.categoria4{
+    @include categoria($a-verde);
+    img{
+        margin-top: -12%;
+    }
+}
+
+.categoria5{
+    @include categoria($a-naranja);
+    img{
+        margin-top: -20%;
+    }
+
+}
+
+.categoria6{
+    @include categoria($a-rojo);
+    img{
+        margin-top: -12%;
+    }
+}
+
+.icon-dinero{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.btn-gastos{
+    @include btns ($a-rojo);
+}

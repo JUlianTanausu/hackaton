@@ -1,0 +1,74 @@
+@mixin space-logo($topLogo:5%,$PbottomLogo:5%){
+    margin-top:$topLogo;
+    padding-bottom: $PbottomLogo;
+}
+
+@mixin space-campos($MbottomCampos:2%){
+    margin-bottom: $MbottomCampos;
+}
+
+@mixin caja-login-sign($topCajaLS:5%,$leftCajaLS:90%){
+    background-color: $a-azul;;
+    padding: 1%;
+    margin-top: $topCajaLS;
+    margin-left: $leftCajaLS;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    color: white;
+}
+
+@mixin btn-log-sign{
+    background-color: $a-azul;
+    color: white;
+    font-family: roboto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+@mixin categoria($ColorCategoria:$a-amarillo){
+    padding-top:4%;
+    color:white;
+    font-family: $r-regular;
+    text-align: center;
+    border-radius: 5px;
+    img{
+        width: 100%;
+    }
+    background-color: $ColorCategoria;
+    h3{
+        font-size: 20px;
+        margin-top: 10%;
+    }
+
+}
+
+@mixin paddingIcono($PaddingBottomIco:9%){
+    padding-bottom: $PaddingBottomIco;
+}
+
+@mixin btns($ColorBtns:$a-azul){
+        background-color: $ColorBtns;
+        padding: 1%;
+        color: white;
+        text-align: center;
+        margin-top: 2%;
+        border-radius: 5px;
+        font-size: 24px;
+}
+
+@mixin panel-categorias{
+    height:240px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    float:left
+}
+
+@mixin barras($BGbarras:$a-azul){
+    background-color: $BGbarras;
+}

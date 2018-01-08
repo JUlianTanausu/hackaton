@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+        <head class="form container-fluid" id="menu">
+          <meta charset="utf-8">
+          <title>FINBOT</title>
+          <script  type="text/javascript" src="calendario.js"></script>   
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+          <link href="src/assets/css/styles.css" rel="stylesheet">
+          <link href="src/components/estilos_calendario.css" rel="stylesheet">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      
+        
+        
+          <script type="text/javascript" src="https://vuejs.org/js/vue.min.js"></script>
+          
+       
+          
+         
+      
+        </head>
+        <body class="container-fluid">
+                <div class="row empujar-cajas">
+                        <div class="col-md-2 offset-md-2">
+                          <img src="src/assets/FINBOT_logo.gif">
+                        </div>
+                        <div class="col-md-5">
+                          <div class="arrow_box">
+                            <p>Hola, <strong class="nombre-usuario">Pepe</strong> soy FINBOT tu gestor financiero.</p>
+                            <p>Para comenzar indica tus <strong>ahorros</strong>, tu <strong>nómina de trabajo</strong> y <strong>la meta</strong> que quieres proponerte.</p> 
+                          </div>
+                        </div>
+                </div>
+
+                <div class="container">
+                        <div class="row empujar-cajas">
+                                <div class="col-md-2 offset-md-2 categoria1">
+                                    <img src="src/assets/img/iconos/hogar.png" class="col-md-6 paddingicono4">
+                                    <h3>Gastos del hogar</h3>
+                                </div>
+                                <div class="col-md-2 offset-md-1 categoria2">
+                                    <img src="src/assets/img/iconos/transporte.png" class="col-md-8 paddingicono5">
+                                    <h3>Compras y ocio</h3></div>
+                                <div class="col-md-2 offset-md-1 categoria3">
+                                    <img src="src/assets/img/iconos/restaurante.png" class="col-md-5 paddingicono6">
+                                    <h3>Restauración</h3></div>
+                            </div>
+
+                    <div class="row">
+                            <div class="col-md-2 offset-md-2 categoria4">
+                                <img src="src/assets/img/iconos/salud.png" class="col-md-6 paddingicono4">
+                                <h3>Salud</h3>
+                            </div>
+                            <div class="col-md-2 offset-md-1 categoria5">
+                                <img src="src/assets/img/iconos/ocio.png" class="col-md-6 paddingicono5">
+                                <h3>Compras y ocio</h3></div>
+                            <div class="col-md-2 offset-md-1 categoria6">
+                                <img src="src/assets/img/iconos/supermercado.png" class="col-md-6 paddingicono6">
+                                <h3>Supermercado</h3></div>
+                        </div>
+
+                        <div class="col-6 offset-md-3 empujar-cajas">
+                              <div class="row campo-cantidad">
+                                  <div class="col-md-2 valor">
+                                    <img src="src/assets/img/iconos/money.png" class="icon-dinero">
+                                  </div>
+                                  <input class="col-md-9 offset-md-1" id="salario" v-bind:value="this.generos[0].salario_mensual"></input>
+                              </div>
+                        </div>
+
+                              <div class="row">
+                                    <div class="col-md-4 offset-md-4 btn-gastos">
+                                    <a v-on:click="cambiar()">Añadir Gasto</a>
+                                    </div>
+                                  </div>
+                </div>
+
+                
+
+                
+          
+      
+        
+          <script src="/dist/build.js"></script>
+          <script  type="text/javascript" src="calendario.js"></script>      
+          <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+      
+          
+          
+        </body>
+      </html>

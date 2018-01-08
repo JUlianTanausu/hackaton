@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head class="form container-fluid" id="menu">
+    <meta charset="utf-8">
+    <title>FINBOT</title>
+    <script  type="text/javascript" src="calendario.js"></script>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="src/assets/css/styles.css" rel="stylesheet">
+    <link href="src/components/estilos_calendario.css" rel="stylesheet">
+    <link href="src/components/estilos_progreso.css" rel="stylesheet">
+    <link href="src/components/estilos_bloques.css" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+  
+  
+    <script type="text/javascript" src="https://vuejs.org/js/vue.min.js"></script>
+
+ 
+    
+   
+
+  </head>
+  <body class="container-fluid">
+ 
+    <div id="app">
+        
+
+    </div>
+
+  
+    <script src="/dist/build.js"></script>
+    <script  type="text/javascript" src="calendario.js"></script> 
+    
+    <script type="text/javascript" src="/src/js/artyom/artyom.js"></script>     
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script> artyom.say("Hola buenos días, mi nombre es Fin Bot y voy a ayudarte a gestionar tus cuentas, introduce tu nombre de usuario y contraseña para empezar o bien regístrate si aún no lo has hecho")</script>
+    <script>
+      function move() {
+       var elem = document.getElementById("myBar");  
+       var width = 1;
+       var id = setInterval(frame, 10);
+       function frame() {
+         if (width >= 40) {
+           clearInterval(id);
+         } else {
+           width++;
+           elem.style.width = width + '%';
+         }
+       }
+      }
+      </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script  type="text/javascript" src="bloques.js"></script>
+  </body>
+</html>

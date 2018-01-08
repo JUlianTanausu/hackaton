@@ -1,0 +1,93 @@
+/* Importar estilos de font-awesome */
+@import url("font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+@font-face {
+  font-family: Telefonica-Regular;
+  src: url(../fonts/TelefonicaCapWeb-Regular.eot);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Regular.svg); }
+@font-face {
+  font-family: Telefonica-Bold;
+  src: url(../fonts/TelefonicaCapWeb-Bold.eot);
+  src: url(../fonts/TelefonicaCapWeb-Bold.woff);
+  src: url(../fonts/TelefonicaCapWeb-Bold.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Bold.svg); }
+@font-face {
+  font-family: Telefonica-ExtraLight;
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.eot);
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.woff);
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.woff2);
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.svg); }
+@font-face {
+  font-family: Telefonica-Hand;
+  src: url(../fonts/TelefonicaCapWeb-Hand.eot);
+  src: url(../fonts/TelefonicaCapWeb-Hand.woff);
+  src: url(../fonts/TelefonicaCapWeb-Hand.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Hand.svg); }
+@font-face {
+  font-family: Telefonica-Light;
+  src: url(../fonts/TelefonicaCapWeb-Light.eot);
+  src: url(../fonts/TelefonicaCapWeb-Light.woff);
+  src: url(../fonts/TelefonicaCapWeb-Light.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Light.svg); }
+@font-face {
+  font-family: Telefonica-Regular;
+  src: url(../fonts/TelefonicaCapWeb-Regular.eot);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Regular.svg); }
+.conversacion {
+  margin-top: -10%; }
+
+html, body {
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #007486), color-stop(28%, #007486), color-stop(50%, #0095a7), color-stop(100%, #00c6da));
+  background: -webkit-linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  background: -o-linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  background: -ms-linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  background: linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007486', endColorstr='#00c6da',GradientType=1 );
+  background-attachment: fixed;
+  height:100%;
+  width: 100%;
+  font-family: Telefonica-Regular, Helvetica, Arial, sans-serif;
+   }
+
+h1{
+  font-family: Telefonica-Regular;
+  font-size: 30%;
+  color:white;
+  text-align: center;
+}
+
+/* Checkbox */
+
+input[type="checkbox"] {
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #007486), color-stop(28%, #007486), color-stop(50%, #0095a7), color-stop(100%, #00c6da));
+  background: -webkit-linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  background: -o-linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  background: -ms-linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  background: linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007486', endColorstr='#00c6da',GradientType=1 );
+  background-attachment: fixed;
+
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 14px;
+    width: 14px;
+    margin: 0; padding: 0;
+    -webkit-appearance: none;
+    -webkit-transition: .15s;
+    
+}
+input[type="checkbox"]:hover { box-shadow: 0 1px 3px rgba(0,0,0,.3); }
+input[type="checkbox"]:checked {
+    background: white;
+    border-color: white;
+    box-shadow: 0 0 3px #4d99e1;
+}
+
+/* Label */
+
+label { color: #333; cursor: pointer;}

@@ -1,0 +1,188 @@
+/* Importar estilos de font-awesome */
+@import url("font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+@font-face {
+  font-family: Telefonica-Regular;
+  src: url(../fonts/TelefonicaCapWeb-Regular.eot);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Regular.svg); }
+@font-face {
+  font-family: Telefonica-Bold;
+  src: url(../fonts/TelefonicaCapWeb-Bold.eot);
+  src: url(../fonts/TelefonicaCapWeb-Bold.woff);
+  src: url(../fonts/TelefonicaCapWeb-Bold.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Bold.svg); }
+@font-face {
+  font-family: Telefonica-ExtraLight;
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.eot);
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.woff);
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.woff2);
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.svg); }
+@font-face {
+  font-family: Telefonica-Hand;
+  src: url(../fonts/TelefonicaCapWeb-Hand.eot);
+  src: url(../fonts/TelefonicaCapWeb-Hand.woff);
+  src: url(../fonts/TelefonicaCapWeb-Hand.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Hand.svg); }
+@font-face {
+  font-family: Telefonica-Light;
+  src: url(../fonts/TelefonicaCapWeb-Light.eot);
+  src: url(../fonts/TelefonicaCapWeb-Light.woff);
+  src: url(../fonts/TelefonicaCapWeb-Light.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Light.svg); }
+@font-face {
+  font-family: Telefonica-Regular;
+  src: url(../fonts/TelefonicaCapWeb-Regular.eot);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Regular.svg); }
+.conversacion {
+  margin-top: -10%; }
+
+html, body {
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #007486), color-stop(28%, #007486), color-stop(50%, #0095a7), color-stop(100%, #00c6da));
+  background: -webkit-linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  background: -o-linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  background: -ms-linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  background: linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007486', endColorstr='#00c6da',GradientType=1 );
+  background-attachment: fixed;
+  height:100%;
+  width: 100%;
+  font-family: Telefonica-Regular, Helvetica, Arial, sans-serif; }
+
+.botonverpelicula{
+  background-color: #00FF98;
+  color: #004356;
+  border-color: #00FF98;
+  font-size: 40%;
+  height: 20px;
+  width: 100px;
+}
+
+.amplia{
+      display:inline-block;
+    border:0;
+    width:166px;
+    height:190px;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+.amplia:hover{
+      box-shadow: 0px 0px 80px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+
+}
+
+.col-md-2 h2{
+  background-color: #004356;
+  color:white;
+  height: 250px;
+  width: 180px;
+}
+.col-md-2 h2 h21 {
+  width: 160px;
+  color:white;
+  text-align: left;
+  font-size: 80%;
+}
+.col-md-2 h2 h22 {
+  width: 160px;
+  color:white;
+  text-align: left;
+  font-size: 30%;
+}
+
+.col-md-2 h2 h33 {
+  background-color: #008597;
+  align-content: right;
+  color:white;
+  font-size: 40%;
+}
+
+.col-md-2 h2 h24 {
+  color:white;
+  font-size: 40%;
+}
+.col-md-2 h2 h25 {
+  color:white;
+  font-size: 40%;
+}
+.col-md-2 h2 h2 {
+  color:white;
+  font-size: 40%;
+}
+.pregunta {
+  margin-bottom: 1%; }
+
+.pregunta article h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 100%; }
+
+.botonslide{
+  background: transparent;
+  width: 40px;
+  font-size: 40px;
+  height: 80px;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+
+.pregunta article span {
+  color: #FFFFFF; }
+
+.img-preguntas div a img {
+  background-color: #FFFFFF;
+  width: 100%; }
+
+.style_prevu_kit
+{
+    display:inline-block;
+    border:0;
+    width:196px;
+    height:210px;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+.style_prevu_kit:hover
+{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+

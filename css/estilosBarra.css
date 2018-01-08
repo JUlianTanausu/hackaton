@@ -1,0 +1,161 @@
+stilos de font-awesome */
+@import url("font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+@font-face {
+  font-family: Telefonica-Regular;
+  src: url(../fonts/TelefonicaCapWeb-Regular.eot);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Regular.svg); }
+@font-face {
+  font-family: Telefonica-Bold;
+  src: url(../fonts/TelefonicaCapWeb-Bold.eot);
+  src: url(../fonts/TelefonicaCapWeb-Bold.woff);
+  src: url(../fonts/TelefonicaCapWeb-Bold.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Bold.svg); }
+@font-face {
+  font-family: Telefonica-ExtraLight;
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.eot);
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.woff);
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.woff2);
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.svg); }
+@font-face {
+  font-family: Telefonica-Hand;
+  src: url(../fonts/TelefonicaCapWeb-Hand.eot);
+  src: url(../fonts/TelefonicaCapWeb-Hand.woff);
+  src: url(../fonts/TelefonicaCapWeb-Hand.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Hand.svg); }
+@font-face { 
+  font-family: Telefonica-Light;
+  src: url(../fonts/TelefonicaCapWeb-Light.eot);
+  src: url(../fonts/TelefonicaCapWeb-Light.woff);
+  src: url(../fonts/TelefonicaCapWeb-Light.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Light.svg); }
+@font-face {
+  font-family: Telefonica-Regular;
+  src: url(../fonts/TelefonicaCapWeb-Regular.eot);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Regular.svg); }
+
+html, body {
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #007486), color-stop(28%, #007486), color-stop(50%, #0095a7), color-stop(100%, #00c6da));
+  background: -webkit-linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  background: -o-linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  background: -ms-linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  background: linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007486', endColorstr='#00c6da',GradientType=1 );
+  background-attachment: fixed;
+  font-family: Telefonica-Regular, Helvetica, Arial, sans-serif; }
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+h1 {
+  margin-bottom: 10px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 100px;
+  color: #999;
+  
+}
+a {
+  color: #428bca;
+}
+.rangeSlider {
+  position: relative;
+  height: 6px;
+  margin: 40px;
+  margin-top: 45px;
+  margin-bottom: 12px;
+  border-radius: 500px;
+  height: 20px;
+  background-color: #005466;
+}
+.rangeSlider--animate .rangeSlider__handle,
+.rangeSlider--animate .rangeSlider__tooltip {
+  -webkit-transition: left 300ms;
+  transition: left 300ms;
+}
+.rangeSlider--animate .rangeSlider__range {
+  -webkit-transition: left 300ms, width 300ms;
+  transition: left 300ms, width 300ms;
+}
+.rangeSlider__handle {
+  display: inline-block;
+  position: absolute;
+  top: -12px;
+  width: 10px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  border-radius: 0%;
+  background-color: white;
+}
+.rangeSlider__handle:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 8px);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid white;
+}
+.rangeSlider__handle:after {
+  content: attr(data-value);
+  display: block;
+  position: absolute;
+  top: -33px;
+  left: -25px;
+  width: 80px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  font-size: 22px;
+  -webkit-transition: margin 300ms;
+  transition: margin 300ms;
+}
+.rangeSlider__handle:focus {
+  outline: 0;
+}
+.rangeSlider__handle--from {
+  left: -15px;
+}
+.rangeSlider__handle--to {
+  right: -15px;
+}
+.rangeSlider__handle--active {
+  z-index: 1;
+}
+.rangeSlider__range {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-color: #00FF98;
+  height: 20px;
+  border-radius: 500px;
+}
+.rangeSlider__tooltips {
+  position: absolute;
+  top: -45px;
+  width: 100%;
+  height: 25px;
+  -webkit-filter: url("#composite-goo");
+          filter: url("#composite-goo");
+}
+
+.rangeSlider__tooltip--from {
+  left: -40px;
+}
+.rangeSlider__tooltip--to {
+  right: -40px;
+}

@@ -1,0 +1,182 @@
+{
+    "animaciones": [
+    {
+   
+    "nombre": "listening_inicial",
+    "archivo": "listening.json",
+    "evento": "weather",
+    "siguiente": "morphing",
+    "loop": true,
+    "inicial": true,
+    "posicion": 0,
+    "tipo": "basica"
+    },
+    {
+   
+    "nombre": "aura2mic",
+    "archivo": "aura2mic.json",
+    "evento": "complete",
+    "siguiente": "mic2aura",
+    "loop": false,
+    "inicial": false,
+    "posicion": 1,
+    "tipo": "basica"
+    },
+    {
+  
+    "nombre": "mic2aura",
+    "archivo": "mic2aura.json",
+    "evento": "complete",
+    "siguiente": "listening",
+    "loop": false,
+    "inicial": false,
+    "posicion": 2,
+    "tipo": "basica"
+    },
+    {
+   
+    "nombre": "thinking",
+    "archivo": "thinking.json",
+    "evento": "complete",
+    "siguiente": "listening",
+    "loop": false,
+    "inicial": false,
+    "posicion": 3,
+    "tipo": "basica"
+    },
+    {
+  
+    "nombre": "thinking",
+    "archivo": "thinking.json",
+    "evento": "complete",
+    "siguiente": "listening",
+    "loop": false,
+    "inicial": false,
+    "posicion": 4,
+    "tipo": "basica"
+    },
+    {
+   
+    "nombre": "Sol",
+    "archivo": "Sol.json",
+    "evento": "complete",
+    "siguiente": "listening",
+    "loop": false,
+    "inicial": false,
+    "posicion": 5,
+    "tipo": "clima",
+    "weatherIcons": [
+    800
+    ]
+    },
+    {
+  
+    "nombre": "Lluvia",
+    "archivo": "Lluvia.json",
+    "evento": "complete",
+    "siguiente": "listening",
+    "loop": false,
+    "inicial": false,
+    "posicion": 6,
+    "tipo": "clima",
+    "weatherIcons": [
+    200,
+    201,
+    202,
+    500,
+    501,
+    502,
+    511,
+    520,
+    521,
+    522,
+    900
+    ]
+    },
+    {
+   
+    "nombre": "Nublado",
+    "archivo": "Nublado.json",
+    "evento": "complete",
+    "siguiente": "listening",
+    "loop": false,
+    "inicial": false,
+    "posicion": 7,
+    "tipo": "clima",
+    "weatherIcons": [
+    230,
+    231,
+    232,
+    233,
+    611,
+    612,
+    700,
+    711,
+    721,
+    731,
+    741,
+    751,
+    801,
+    802,
+    803,
+    804
+    ]
+    },
+    {
+   
+    "nombre": "Nieve",
+    "archivo": "Nieve.json",
+    "evento": "complete",
+    "siguiente": "listening",
+    "loop": false,
+    "inicial": false,
+    "posicion": 8,
+    "tipo": "clima",
+    "weatherIcons": [
+    300,
+    301,
+    302,
+    600,
+    601,
+    602,
+    610,
+    621,
+    622,
+    623
+    ]
+    },
+    {
+   
+    "nombre": "Amanece",
+    "archivo": "Amanece.json",
+    "evento": "complete",
+    "siguiente": "listening",
+    "loop": false,
+    "inicial": false,
+    "posicion": 9,
+    "tipo": "clima"
+    },
+    {
+   
+    "nombre": "Luna",
+    "archivo": "Luna.json",
+    "evento": "complete",
+    "siguiente": "listening",
+    "loop": false,
+    "inicial": false,
+    "posicion": 10,
+    "tipo": "clima"
+    },
+    {
+    
+    "nombre": "listening",
+    "archivo": "listening.json",
+    "evento": "click",
+    "siguiente": "aura2mic",
+    "loop": true,
+    "inicial": false,
+    "posicion": 11,
+    "tipo": "basica"
+    }
+    ]
+    }

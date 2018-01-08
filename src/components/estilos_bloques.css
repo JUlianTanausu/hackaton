@@ -1,0 +1,25 @@
+.chart div {
+    font: 10px sans-serif;
+    background-color: gray;
+    height: 200px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+   }
+   
+   
+   #tooltip {
+    position: absolute;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+   }
+   
+   #tooltip.hidden {
+      opacity: 0;
+   }

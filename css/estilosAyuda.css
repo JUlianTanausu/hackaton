@@ -1,0 +1,167 @@
+/* Importar estilos de font-awesome */
+@import url("font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+@font-face {
+  font-family: Telefonica-Regular;
+  src: url(../fonts/TelefonicaCapWeb-Regular.eot);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Regular.svg); }
+@font-face {
+  font-family: Telefonica-Bold;
+  src: url(../fonts/TelefonicaCapWeb-Bold.eot);
+  src: url(../fonts/TelefonicaCapWeb-Bold.woff);
+  src: url(../fonts/TelefonicaCapWeb-Bold.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Bold.svg); }
+@font-face {
+  font-family: Telefonica-ExtraLight;
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.eot);
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.woff);
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.woff2);
+  src: url(../fonts/TelefonicaCapWeb-ExtraLight.svg); }
+@font-face {
+  font-family: Telefonica-Hand;
+  src: url(../fonts/TelefonicaCapWeb-Hand.eot);
+  src: url(../fonts/TelefonicaCapWeb-Hand.woff);
+  src: url(../fonts/TelefonicaCapWeb-Hand.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Hand.svg); }
+@font-face {
+  font-family: Telefonica-Light;
+  src: url(../fonts/TelefonicaCapWeb-Light.eot);
+  src: url(../fonts/TelefonicaCapWeb-Light.woff);
+  src: url(../fonts/TelefonicaCapWeb-Light.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Light.svg); }
+@font-face {
+  font-family: Telefonica-Regular;
+  src: url(../fonts/TelefonicaCapWeb-Regular.eot);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff);
+  src: url(../fonts/TelefonicaCapWeb-Regular.woff2);
+  src: url(../fonts/TelefonicaCapWeb-Regular.svg); }
+.conversacion {
+  margin-top: -10%; }
+
+html, body {
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #007486), color-stop(28%, #007486), color-stop(50%, #0095a7), color-stop(100%, #00c6da));
+  background: -webkit-linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  background: -o-linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  background: -ms-linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  background: linear-gradient(45.9deg, #007486 0%, #007486 28%, #0095a7 50%, #00c6da 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007486', endColorstr='#00c6da',GradientType=1 );
+  background-attachment: fixed;
+  height:100%;
+  width: 100%;
+  font-family: Telefonica-Regular, Helvetica, Arial, sans-serif; }
+
+
+h11 { 
+  animation: move 3s;
+  -webkit-animation: move 3s;
+  margin-left: 30%;
+    font-size: 140%;
+    position: absolute;
+    font-family: Telefonica-Regular;
+    color: white;
+    z-index: 1;
+
+
+}
+
+@keyframes move {
+  from {
+    margin-left: 0%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: 30%;
+    width: 80%;
+  }
+}
+            
+@-webkit-keyframes move {
+  from {
+    margin-left: 0%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: 100%;
+    width: 0%;
+  }
+}
+
+
+
+
+h22{ 
+  animation: move2 3s;
+  -webkit-animation: move2 3s;
+  margin-left: 0%;
+  font-size: 140%;
+  font-family: Telefonica-Regular;
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+@keyframes move2 {
+  from {
+    margin-left: 30%;
+    width: 70%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 70%;
+  }
+}
+            
+@-webkit-keyframes move2 {
+  from {
+    margin-left: 0%;
+    width: 70%; 
+  }
+
+  to {
+    margin-left: 100%;
+    width: 0%;
+  }
+}
+
+
+
+
+h33{ 
+  animation: move3 3s;
+  -webkit-animation: move2 3s;
+  margin-left: 0%;
+  font-size: 140%;
+  font-family: Telefonica-Regular;
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+@keyframes move3 {
+  from {
+    margin-left: 30%;
+    width: 70%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 70%;
+  }
+}
+            
+@-webkit-keyframes move3 {
+  from {
+    margin-left: 0%;
+    width: 70%; 
+  }
+
+  to {
+    margin-left: 100%;
+    width: 0%;
+  }
+}
